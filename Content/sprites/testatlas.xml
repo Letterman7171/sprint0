@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas>
+    <Texture>sprites/testspritesheet</Texture>
+    <Regions>
+        <Region name="playerf1" x="0" y="25" width="25" height="25" />
+		<Region name="playerf2" x="0" y="0" width="25" height="25" />
+		<Region name="playerf3" x="0" y="50" width="25" height="25" />
+		<Region name="playerl1" x="25" y="25" width="25" height="25" />
+		<Region name="playerl2" x="25" y="0" width="25" height="25" />
+		<Region name="playerl3" x="25" y="50" width="25" height="25" />
+		<Region name="playerr1" x="50" y="25" width="25" height="25" />
+		<Region name="playerr2" x="50" y="0" width="25" height="25" />
+		<Region name="playerr3" x="50" y="50" width="25" height="25" />
+		<Region name="playerb1" x="75" y="25" width="25" height="25" />
+		<Region name="playerb2" x="75" y="0" width="25" height="25" />
+		<Region name="playerb3" x="75" y="50" width="25" height="25" />
+		<Region name="player2" x="100" y="0" width="25" height="25"/>
+    </Regions>
+	<Animations>
+        <Animation name="player-animationFORWARD" delay="200">
+            <Frame region="playerf1" />
+			<Frame region="playerf2" />
+            <Frame region="playerf1" />
+			<Frame region="playerf3" />
+        </Animation>
+		<Animation name="player-animationLEFT" delay="200">
+			<Frame region="playerl1" />
+			<Frame region="playerl2" />
+			<Frame region="playerl1" />
+			<Frame region="playerl3" />
+		</Animation>
+		<Animation name="player-animationRIGHT" delay="200">
+			<Frame region="playerr1" />
+			<Frame region="playerr2" />
+			<Frame region="playerr1" />
+			<Frame region="playerr3" />
+		</Animation>
+		<Animation name="player-animationBACKWARD" delay="200">
+			<Frame region="playerb1" />
+			<Frame region="playerb2" />
+			<Frame region="playerb1" />
+			<Frame region="playerb3" />
+		</Animation>
+    </Animations>
+</TextureAtlas>
